@@ -117,7 +117,7 @@ ul, li{
 .korea-font{
 	float: left;
 	margin-right: 10px;
-	font-family: -webkit-pictograph;
+	font-family: sans-serif, -webkit-pictograph;
 }
 
 /*carousel*/
