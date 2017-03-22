@@ -67,6 +67,7 @@
     }
     .description-part{
     	padding: 20px 0 50px;
+    	width: 100%;
     }
     .row-left{
     	padding: 0;
@@ -83,7 +84,12 @@
     }
     .row-container{
     	display: flex;
+    	display: -webkit-box;
+    	display: -webkit-flex;
+    	display: -ms-flexbox;
     	flex-wrap: wrap-reverse;
+    	-webkit-flex-wrap: wrap-reverse;
+    	-ms-flex-wrap: wrap-reverse;
     }
 }
 
