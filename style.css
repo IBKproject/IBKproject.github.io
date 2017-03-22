@@ -285,7 +285,9 @@ footer{
 }
 
 /*flex-helper*/
-.flex-wrapper{
-  -webkit-flex: 1 1 auto;
-  flex: 1 1 auto;
+.row{
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+	display: -webkit-box; 
 }
