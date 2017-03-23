@@ -299,3 +299,21 @@ footer{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+
+
+/*modal*/
+div.modal div.modal-backdrop {
+    z-index: 0;
+}
+body.modal-open div.modal-backdrop { 
+    z-index: 0; 
+}
+
+.modal-sm{
+	transform: translateY(50%) !important;
+	-webkit-transform: translateY(50%) !important;
+	-ms-transform: translateY(50%) !important;
+}
+.modal-backdrop.show {
+     opacity: .5 !important; 
+}
