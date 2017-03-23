@@ -61,6 +61,24 @@
             </div>
         </nav>
     </div>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Notice</h4>
+                </div>
+                <div class="modal-body">
+                    <p>이 페이지는 더미 페이지입니다.</p>
+                    <p>메인 페이지를 모두 보시고 나면
+                        <br>왼쪽 상단의 "투자하기"를 눌러주시기 바랍니다.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="mid-content">
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
             <ol class="carousel-indicators">
@@ -410,6 +428,13 @@
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript">
+    $(document).ready(function () {
+
+        $('#myModal').modal('show');
+
+    });
+</script>
 </body>
 
 </html>
