@@ -1,4 +1,4 @@
-$(document).jQuery(document).ready(function($) {
+$(document).ready(function($) {
         function sliceSize(dataNum, dataTotal) {
         return (dataNum / dataTotal) * 360;
     }
